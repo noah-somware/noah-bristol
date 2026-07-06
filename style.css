@@ -28,6 +28,14 @@ body {
     width: 100%;
   }
   
+  #kajabi-form .kajabi-form__title {
+    color: #ffffff !important;
+  }
+
+  #kajabi-form .kajabi-form__subtitle {
+    color: #e0e0e0 !important;
+  }
+
   footer {
     margin-top: 2rem;
     font-size: 0.9rem;
@@ -51,4 +59,39 @@ body {
       font-size: 0.8rem;
     }
   }
-  
+
+  body.policy-page {
+    display: block;
+    text-align: left;
+    min-height: 0;
+  }
+
+  body.policy-page .container {
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .policy-content h1 {
+    color: #ed7105;
+  }
+
+  .policy-content h2 {
+    color: #ed7105;
+    margin-top: 2rem;
+  }
+
+  .policy-content p,
+  .policy-content li {
+    line-height: 1.6;
+    color: #ddd;
+  }
+
+  .policy-content a {
+    color: #ed7105;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+  }
