@@ -13,6 +13,13 @@
   <div class="container">
     <div class="form-wrapper">
       <script src="https://myliferebooted.mykajabi.com/forms/2149024625/embed.js"></script>
+      <div id="form-fallback" hidden>
+        <p class="fallback-title">The form didn't load</p>
+        <p>Ad blockers and script blockers often block this page's signup form. If you run one, please allow this page and refresh. The form will appear here.</p>
+      </div>
+      <noscript>
+        <p>This page needs JavaScript turned on to show the signup form. Please enable JavaScript and refresh.</p>
+      </noscript>
     </div>
     <footer>
         <p>
@@ -24,5 +31,15 @@
           <p><a href="privacy.html">Privacy Policy</a></p>
         </footer>
   </div>
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        if (!document.getElementById('kajabi-form')) {
+          var fb = document.getElementById('form-fallback');
+          if (fb) { fb.hidden = false; }
+        }
+      }, 3000);
+    });
+  </script>
 </body>
 </html>

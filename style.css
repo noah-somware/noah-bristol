@@ -36,6 +36,17 @@ body {
     color: #e0e0e0 !important;
   }
 
+  #form-fallback {
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+
+  #form-fallback .fallback-title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+
   footer {
     margin-top: 2rem;
     font-size: 0.9rem;
