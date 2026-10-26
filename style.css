@@ -42,6 +42,7 @@ body {
   }
 
 .thanks-title {
+    text-align: left;
     color: #ffffff;
     font-weight: 600;
     font-size: 1.5rem;
@@ -49,6 +50,7 @@ body {
   }
 
   .thanks-text {
+    text-align: left;
     color: #e0e0e0;
     line-height: 1.6;
   }
