@@ -55,6 +55,10 @@ body {
     line-height: 1.6;
   }
 
+  .thanks-text a {
+    color: #ed7105;
+  }
+
   #form-fallback .fallback-title {
     color: #ffffff;
     font-weight: 600;
